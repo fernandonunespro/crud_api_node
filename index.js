@@ -66,7 +66,7 @@ server.put('/cursos/:index', checkCurso, (req, res)=> {
 
 })
 
-//Deletando curso)DELETE)
+//Deletando curso(DELETE)
 server.delete('/cursos/:index', checkIndexCurso, (req, res)=>{
     const { index } = req.params;
 
